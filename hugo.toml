@@ -11,5 +11,6 @@ relativeURLs = true
 [params]
   author = "randnameaaa" # PaperMod 主题有时也用这个参数
   defaultTheme = 'auto'
+  assets.disableFingerprinting = false
 
 mainSections = ["posts"] 
