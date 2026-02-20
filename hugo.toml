@@ -1,0 +1,13 @@
+baseURL = 'https://randnameaaa.top/' # 这里之后记得改成你的真实域名
+languageCode = 'zh-cn'
+title = 'randnameaaa的小屋'
+theme = 'PaperMod'
+
+[author]
+  name = "randnameaaa"  # 随便填一个名字
+
+[params]
+  author = "randnameaaa" # PaperMod 主题有时也用这个参数
+  defaultTheme = 'auto'
+
+mainSections = ["posts"] 
