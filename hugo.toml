@@ -3,6 +3,8 @@ languageCode = 'zh-cn'
 title = 'randnameaaa的小屋'
 theme = 'PaperMod'
 
+relativeURLs = true
+
 [author]
   name = "randnameaaa"  # 随便填一个名字
 
