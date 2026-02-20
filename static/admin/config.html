@@ -1,0 +1,21 @@
+backend:
+  name: github
+  repo: randnameaaa/myblog
+  branch: main
+  auth_type: implicit 
+  app_id: Ov23lixfgYJmbmFOlRUp 
+
+media_folder: "static/images" # 图片上传位置
+public_folder: "/images" # 图片在文章中的引用路径
+
+collections:
+  - name: "posts" # 集合名称
+    label: "文章" # 后台显示的标签
+    folder: "content/posts" # 文章存放的文件夹
+    create: true # 允许创建新文章
+    slug: "{{year}}-{{month}}-{{day}}-{{slug}}" # 文件名格式
+    fields: # 文章包含哪些字段
+      - {label: "标题", name: "title", widget: "string"}
+      - {label: "发布日期", name: "date", widget: "datetime"}
+      - {label: "是否草稿", name: "draft", widget: "boolean", default: false}
+      - {label: "正文", name: "body", widget: "markdown"}
