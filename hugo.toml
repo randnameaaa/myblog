@@ -1,4 +1,4 @@
-baseURL = 'https://randnameaaa.top/' # 这里之后记得改成你的真实域名
+baseURL = 'https://myblog-psi-hazel.vercel.app/' # 这里之后记得改成你的真实域名
 languageCode = 'zh-cn'
 title = 'randnameaaa的小屋'
 theme = 'PaperMod'
