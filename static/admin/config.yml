@@ -3,7 +3,7 @@ backend:
   repo: randnameaaa/myblog
   branch: main
   auth_type: implicit 
-  app_id: Ov23lixfgYJmbmFOlRUp 
+  app_id: Ov23lixfgYJmbmFOlRUp
 
 media_folder: "static/images" # 图片上传位置
 public_folder: "/images" # 图片在文章中的引用路径
